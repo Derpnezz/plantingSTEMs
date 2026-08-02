@@ -7,7 +7,7 @@ document.write(`
           <img src="images/logo.jpg" alt="plantingSTEMs logo" />
           plantingSTEMs
         </div>
-        <p>A student-led nonprofit growing curious minds through hands-on plant science, one workshop at a time.</p>
+        <p>A student-led nonprofit growing curious minds through hands-on science, one workshop at a time.</p>
         <!--
         <div class="footer-social">
           <a href="https://instagram.com/plantingstems" target="_blank" rel="noopener">IG</a>
