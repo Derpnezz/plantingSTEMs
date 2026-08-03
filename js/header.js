@@ -11,6 +11,7 @@ document.write(`
       <li><a href="workshops.html">Workshops</a></li>
       <li><a href="chapters.html">Chapters</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://venmo.com/u/plantingstems" target="_blank" ref="noreferrer">Donate</a></li>
     </ul>
     <div class="nav-cta">
       <a href="volunteer.html" class="btn btn-primary">Volunteer With Us</a>
