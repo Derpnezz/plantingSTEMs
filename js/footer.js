@@ -38,7 +38,7 @@ document.write(`
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2026 plantingSTEMs. All rights reserved.</div>
+    <div class="footer-bottom">© 2026 plantingSTEMs. All rights reserved.<br>Website managed by Gabriel Yee</div>
   </div>
 </footer>
 `);
