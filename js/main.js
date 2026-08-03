@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Remove `.html` at the end of URL path
   if (window.location.pathname.endsWith('index.html')) {
-    const cleanURL = window.location.pathname.slice(0, -10) + window.location.search + window.location.hash;
+    const cleanUrl = window.location.pathname.slice(0, -10) + window.location.search + window.location.hash;
     window.history.replaceState(null, '', cleanUrl);
   } else if (window.location.pathname.endsWith('.html')) {
     const cleanUrl = window.location.pathname.slice(0, -5) + window.location.search + window.location.hash;
