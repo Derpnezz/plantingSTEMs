@@ -4,15 +4,15 @@
 =========================== */
 
 :root {
-  --green-dark: #29114B;/*#1b4d2e;*/
+  --purple: #001F54;/*#29114B;/*#1b4d2e;*/
   --green: #2f8f4e;
   --green-light: #eaf5ea;
-  --lavender: #E5FAE5;/*#F0E0F0;*/
-  --sun: #F5F2A3;/*#f4a300;*/
-  --sun-dark: #F1E565;/*#d98800;*/
+  --lavender: #FEFAE0;/*#F0E0F0;*/
+  --sun-dark: #386641;/*#F5F2A3;/*#f4a300;*/
+  --sun: #90A955;/*#F1E565;/*#d98800;*/
   --coral: #ef6c53;
-  --ink: #1f2a22;
-  --ink-soft: #4c5850;
+  --ink: #001F54;/*#1f2a22;*/
+  --ink-soft: #034078;/*#4c5850;*/
   --white: #ffffff;
   --border: #e2e6df;
   --shadow: 0 10px 30px rgba(27, 77, 46, 0.08);
@@ -42,7 +42,7 @@ h1, h2, h3, h4 {
   font-family: "Fredoka", "Poppins", sans-serif;
   line-height: 1.15;
   margin: 0 0 0.5em;
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 p {
@@ -78,7 +78,7 @@ img {
 }
 
 .section--green {
-  background: var(--green-dark);
+  background: var(--purple);
   color: var(--white);
 }
 
@@ -134,7 +134,7 @@ img {
 
 .btn-primary {
   background: var(--sun);
-  color: var(--green-dark);
+  color: var(--purple);
   box-shadow: 0 8px 20px rgba(244, 163, 0, 0.35);
 }
 
@@ -145,11 +145,11 @@ img {
 .btn-outline {
   background: transparent;
   border-color: currentColor;
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .btn-outline:hover {
-  background: var(--green-dark);
+  background: var(--purple);
   color: var(--white);
 }
 
@@ -159,12 +159,12 @@ img {
 
 .section--green .btn-outline:hover {
   background: var(--white);
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .btn-white {
   background: var(--white);
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .btn-white:hover {
@@ -201,7 +201,7 @@ img {
   gap: 10px;
   font-weight: 700;
   font-size: 20px;
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .brand img {
@@ -245,7 +245,7 @@ img {
 }
 
 .nav-links a.active {
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .nav-cta {
@@ -267,7 +267,7 @@ img {
 .nav-toggle span {
   width: 26px;
   height: 3px;
-  background: var(--green-dark);
+  background: var(--purple);
   border-radius: 2px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -328,7 +328,7 @@ img {
   gap: 10px;
   font-weight: 700;
   font-size: 14px;
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .hero-badge .dot {
@@ -400,7 +400,7 @@ img {
 .pill {
   display: inline-block;
   background: var(--green-light);
-  color: var(--green-dark);
+  color: var(--purple);
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.05em;
@@ -443,7 +443,7 @@ img {
   font-size: 26px;
   font-weight: 700;
   color: var(--white);
-  background: linear-gradient(135deg, var(--green), var(--green-dark));
+  background: linear-gradient(135deg, var(--green), var(--purple));
   object-fit: cover;
 }
 
@@ -460,7 +460,7 @@ img {
   font-family: "Fredoka", sans-serif;
   font-size: 19px;
   font-weight: 600;
-  color: var(--green-dark);
+  color: var(--purple);
   margin-bottom: 0;
 }
 
@@ -594,7 +594,7 @@ img {
   height: 36px;
   border-radius: 50%;
   background: var(--sun);
-  color: var(--green-dark);
+  color: var(--purple);
   font-weight: 700;
   margin-bottom: 16px;
 }
@@ -617,7 +617,7 @@ img {
   font-family: "Fredoka", sans-serif;
   font-size: 17px;
   font-weight: 600;
-  color: var(--green-dark);
+  color: var(--purple);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -668,7 +668,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 6px;
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .field input,
@@ -749,8 +749,8 @@ img {
 
 .filter-btn.active,
 .filter-btn:hover {
-  background: var(--green-dark);
-  border-color: var(--green-dark);
+  background: var(--purple);
+  border-color: var(--purple);
   color: var(--white);
 }
 
@@ -831,7 +831,7 @@ img {
 }
 
 .contact-info-card {
-  background: var(--green-dark);
+  background: var(--purple);
   color: var(--white);
   border-radius: var(--radius);
   padding: 36px;
@@ -931,7 +931,7 @@ img {
   flex-shrink: 0;
   border-radius: 13px;
   background: var(--green-light);
-  color: var(--green-dark);
+  color: var(--purple);
   font-family: "Fredoka", sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -953,7 +953,7 @@ img {
 }
 
 .contact-link-copy strong {
-  color: var(--green-dark);
+  color: var(--purple);
   font-family: "Fredoka", sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -978,7 +978,7 @@ img {
 
 /* ---------- CTA banner ---------- */
 .cta-banner {
-  background: linear-gradient(120deg, var(--green-dark), var(--green));
+  background: linear-gradient(120deg, var(--purple), var(--green));
   color: var(--white);
   border-radius: 28px;
   padding: 56px;
@@ -1006,7 +1006,7 @@ img {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background: var(--green-dark);
+  background: var(--purple);
   color: rgba(255,255,255,0.85);
   padding: 56px 0 28px;
 }
@@ -1079,7 +1079,7 @@ img {
 
 .footer-social a:hover {
   background: var(--sun);
-  color: var(--green-dark);
+  color: var(--purple);
 }
 
 .footer-bottom {
