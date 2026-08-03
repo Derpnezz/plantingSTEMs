@@ -9,6 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
     initStatCounters();
     initFakeForms();
   });
+
+  // Remove `.html` at the end of URL path
+  if (window.location.pathname.endsWith('index.html')) {
+    const cleanURL = window.location.pathname.slice(0, -10) + window.location.search + window.location.hash;
+    window.history.replaceState(null, '', cleanUrl);
+  } else if (window.location.pathname.endsWith('.html')) {
+    const cleanUrl = window.location.pathname.slice(0, -5) + window.location.search + window.location.hash;
+    window.history.replaceState(null, '', cleanUrl);
+  }
 });
 
 // Fetch and inject the shared header/footer markup so it only has to be
